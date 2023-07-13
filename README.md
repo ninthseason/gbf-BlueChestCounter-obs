@@ -1,6 +1,6 @@
 OBS插件
 
-将https://github.com/sinyang92/gbf-BlueChestCounter的数据发送给OBS，绑定文字源显示在屏幕上。
+将 https://github.com/sinyang92/gbf-BlueChestCounter 的数据发送给OBS，绑定文字源显示在屏幕上。
 
 使用方法：
 在OBS中添加`gbf.py`脚本，点击`启动监听`按钮启动服务端用于监听发送来的数据。
