@@ -1,0 +1,3 @@
+[submodule "gbf-BlueChestCounter"]
+	path = gbf-BlueChestCounter
+	url = git@github.com:sinyang92/gbf-BlueChestCounter.git

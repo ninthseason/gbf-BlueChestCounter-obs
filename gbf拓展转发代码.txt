@@ -1,0 +1,9 @@
+port = 8000
+setInterval( () => {
+    chrome.storage.sync.get("blueChestObj", function (result) {
+        x = new XMLHttpRequest()
+        x.open("post", "http://127.0.0.1:"+port+"/input?data="+JSON.stringify(result.blueChestObj))
+        x.setRequestHeader('Content-type','application/json;charset=utf-8')
+        x.send()
+    })
+}, 1000)
